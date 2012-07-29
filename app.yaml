@@ -1,0 +1,19 @@
+application: hydraproto
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /css
+  static_dir: css
+
+- url: /webapp
+  static_dir: webapp
+
+- url: /.*
+  script: hydraproto.app
+
+libraries:
+- name: jinja2
+  version: latest

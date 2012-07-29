@@ -1,0 +1,58 @@
+.content {
+	font-family:Verdana;
+	color:rgb(39,54,64);
+	width:1200px;
+	height:900px;
+}
+
+.backgroundImg {
+	position:absolute; top:0px; left:0px;
+	width:inherit;
+	height:inherit;
+}
+
+.content-primary {
+	position:absolute; top:0px; left:300px;
+	width:900px;
+	height:inherit;
+	text-align:center;
+}
+
+.itemChoice {
+	position:absolute; top:10%; left:10%;
+	width:80%;
+	height:80%
+}
+
+.newItem {
+	position:absolute; top:0px; left:0px;
+}
+
+.content-secondary {
+	position:absolute; top:0px; left:0px;
+	width:300px;
+	height:inherit;
+	background-color:rgba(39,54,64,0.7);
+}
+
+.menulist {
+	position:relative; left:10%;
+	width:80%;
+}
+
+.content-secondary li {
+	font-size:large;
+	font-weight:bold;
+}
+
+.logout {
+	padding:5px;
+	position:absolute; bottom:10px; right:10px;
+	color:rgba(112,140,84,0.5);
+}
+
+.contentTitle {
+	position:absolute; top:15px; left:0px;
+	font-weight:bold;
+	text-align:center;
+}
