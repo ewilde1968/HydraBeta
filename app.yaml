@@ -8,8 +8,8 @@ handlers:
 - url: /css
   static_dir: css
 
-- url: /webapp
-  static_dir: webapp
+- url: /libs
+  static_dir: libs
 
 - url: /.*
   script: hydraproto.app
